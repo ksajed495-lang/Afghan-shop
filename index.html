@@ -1,0 +1,6 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Afghan Shop</title><link rel="stylesheet" href="/style.css"></head><body>
+<header><div class="bar"><b>🇦🇫 Afghan Shop</b><input id="q" placeholder="جستجوی کالا..." oninput="loadProducts()"><button onclick="openLogin()">ورود / ثبت‌نام</button><button onclick="openCart()">🛒 سبد <span id="count">0</span></button><button onclick="openAdmin()">مدیریت</button></div></header>
+<section class="hero"><h1>فروشگاه آنلاین افغان شاپ</h1><p>وسایل خانه، دیجیتال، پوشاک و کالاهای مورد نیاز</p></section>
+<main><div id="products" class="grid"></div></main>
+<div id="modal" class="modal"><div class="box"><button class="close" onclick="closeModal()">×</button><div id="content"></div></div></div>
+<script src="/app.js"></script></body></html>
